@@ -1,7 +1,7 @@
 # 🌿 Plant Disease Detection
 
 This project detects plant leaf diseases using **Machine Learning (SVM, Random Forest)** and **Deep Learning (Custom CNN)**.  
-It also includes a **Gradio/Streamlit app** for easy predictions from uploaded leaf images.
+It also includes a **Gradio app** for easy predictions from uploaded leaf images.
 
 ---
 
@@ -19,30 +19,6 @@ It also includes a **Gradio/Streamlit app** for easy predictions from uploaded l
 
 ---
 
-## ⚙️ Installation
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Swarna-N-T/plant-disease-detection.git
-   cd plant-disease-detection
-
-2. Install dependencies:
-   ```bash
-    pip install -r requirements.txt
-
-3. Train models:
-   ```bash
-    python src/train.py
-
-4. Run Gradio app:
-   ```bash
-    python app/gradio_app.py
-
-5. Run Streamlit app:
-   ```bash
-    streamlit run app/streamlit_app.py
-
----
-
 ## 📌 Dataset
 - The project uses the [PlantVillage dataset](https://data.mendeley.com/datasets/tywbtsjrjv/1) from Kaggle
 ---
@@ -53,5 +29,4 @@ It also includes a **Gradio/Streamlit app** for easy predictions from uploaded l
 - Confusion matrix and training curves are available in results/
 
 ---
-improved version
 
