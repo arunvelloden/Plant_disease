@@ -13,7 +13,6 @@ It also includes a **Gradio app** for easy predictions from uploaded leaf images
   - Convolutional Neural Network (CNN)
 - User Interfaces:
   - Gradio Web UI
-  - Streamlit App
 - Training & Evaluation scripts
 - Visualization of dataset histograms and training curves
 
